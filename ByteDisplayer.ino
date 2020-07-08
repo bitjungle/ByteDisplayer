@@ -54,7 +54,7 @@ void loop() {
   }
 
   // We have a key press, act on it
-  // First, limit the decimal value to be displayed
+  // First, limit the integer value to be displayed
   if (decimalValue > MAX_VAL) {
     decimalValue = MAX_VAL;
   } else if (decimalValue < MIN_VAL) {
